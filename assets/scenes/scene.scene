@@ -686,8 +686,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 99.99996388452293,
-      "height": 50.4
+      "width": 86.43442414066347,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -719,14 +719,17 @@
     "_string": "生命能量：",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -770,7 +773,7 @@
     "__prefab": null,
     "_alignFlags": 8,
     "_target": null,
-    "_left": 0.00001805773853646997,
+    "_left": 6.782787929668267,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -851,8 +854,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 55.61518622103057,
-      "height": 50.4
+      "width": 52.624409542712954,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -884,14 +887,17 @@
     "_string": "12345",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -935,7 +941,7 @@
     "__prefab": null,
     "_alignFlags": 8,
     "_target": null,
-    "_left": 112.00002407698472,
+    "_left": 113.49541241614352,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -1068,8 +1074,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 27.460932684603055,
-      "height": 50.4
+      "width": 27.452813904018956,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1101,14 +1107,17 @@
     "_string": "⚡️",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -1153,7 +1162,7 @@
     "_alignFlags": 32,
     "_target": null,
     "_left": 0,
-    "_right": 199.30176022019847,
+    "_right": 199.30581961049052,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -1233,8 +1242,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 60.605418188332095,
-      "height": 50.4
+      "width": 62.12161208302561,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1266,14 +1275,17 @@
     "_string": "+123/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -1318,7 +1330,7 @@
     "_alignFlags": 32,
     "_target": null,
     "_left": 269.697265625,
-    "_right": 130.00002528083394,
+    "_right": 129.24192833348718,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -1486,14 +1498,17 @@
     "_string": "📋",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 1,
     "_enableWrapText": false,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -2171,14 +2186,17 @@
     "_string": "点击照料",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 31.6875,
+    "_actualFontSize": 31.734374999999996,
     "_fontSize": 25,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 1,
     "_enableWrapText": false,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": true,
@@ -2925,7 +2943,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "PlantIcon",
+    "_name": "PothosIcon",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -3184,7 +3202,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+      "__uuid__": "d45f545e-9906-4416-a8a4-4a4bf4a67009@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -3262,7 +3280,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.99604655910996,
+      "width": 29.999004685192027,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -3295,14 +3313,17 @@
     "_string": "绿萝",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -3394,7 +3415,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 22.226054475622533,
+      "width": 29.86398806776219,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -3427,14 +3448,17 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -3526,7 +3550,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.34830199473003,
+      "width": 34.45384383847243,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -3559,14 +3583,17 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -3622,7 +3649,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "PlantIcon-001",
+    "_name": "SucculentIcon",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -3881,7 +3908,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+      "__uuid__": "63ef880b-0a33-4a3e-9d28-362478654338@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -3959,7 +3986,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.99604655910996,
+      "width": 29.999004685192027,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -3992,14 +4019,17 @@
     "_string": "多肉",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -4091,7 +4121,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 22.226054475622533,
+      "width": 29.86398806776219,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -4124,14 +4154,17 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -4223,7 +4256,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.34830199473003,
+      "width": 34.45384383847243,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -4256,14 +4289,17 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -4319,7 +4355,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "PlantIcon-002",
+    "_name": "MintIcon",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -4578,7 +4614,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+      "__uuid__": "f13290ba-7313-4607-953b-1f0a7ac51424@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -4656,7 +4692,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.99604655910996,
+      "width": 29.999004685192027,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -4689,14 +4725,17 @@
     "_string": "薄荷",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -4788,7 +4827,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 22.226054475622533,
+      "width": 29.86398806776219,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -4821,14 +4860,17 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -4920,7 +4962,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.34830199473003,
+      "width": 34.45384383847243,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -4953,14 +4995,17 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -5016,7 +5061,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "PlantIcon-003",
+    "_name": "LavenderIcon",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -5275,7 +5320,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+      "__uuid__": "36483ab8-0d01-4abb-8298-0938eb5d625d@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -5353,7 +5398,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44.99406983866494,
+      "width": 44.99850702778804,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -5386,14 +5431,17 @@
     "_string": "薰衣草",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -5485,7 +5533,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 22.226054475622533,
+      "width": 29.86398806776219,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -5518,14 +5566,17 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -5617,7 +5668,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.34830199473003,
+      "width": 34.45384383847243,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -5650,14 +5701,17 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -5713,7 +5767,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "PlantIcon-004",
+    "_name": "SunflowerIcon",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -5972,7 +6026,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+      "__uuid__": "9b36a202-b8fb-4ac1-951b-707e0405b685@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -6050,7 +6104,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44.99406983866494,
+      "width": 44.99850702778804,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -6083,14 +6137,17 @@
     "_string": "向日葵",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -6182,7 +6239,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 22.226054475622533,
+      "width": 29.86398806776219,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -6215,14 +6272,17 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -6314,7 +6374,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.34830199473003,
+      "width": 34.45384383847243,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -6347,14 +6407,17 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -6410,7 +6473,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "PlantIcon-005",
+    "_name": "DaisiesIcon",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -6669,7 +6732,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+      "__uuid__": "e860931f-6b5e-45a9-a529-519be5a2703d@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -6747,7 +6810,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44.99406983866494,
+      "width": 44.99850702778804,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -6780,14 +6843,17 @@
     "_string": "满天星",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -6879,7 +6945,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 22.226054475622533,
+      "width": 29.86398806776219,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -6912,14 +6978,17 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -7011,7 +7080,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.34830199473003,
+      "width": 34.45384383847243,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -7044,14 +7113,17 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -7107,7 +7179,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "PlantIcon-006",
+    "_name": "MagicflowIcon",
     "_objFlags": 0,
     "__editorExtras__": {},
     "_parent": {
@@ -7366,7 +7438,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
+      "__uuid__": "6adfde45-5d39-4ffa-9571-550cc5e8975d@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -7444,7 +7516,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44.99406983866494,
+      "width": 44.99850702778804,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -7477,14 +7549,17 @@
     "_string": "魔法花",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -7576,7 +7651,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 22.226054475622533,
+      "width": 29.86398806776219,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -7609,14 +7684,17 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -7708,7 +7786,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.34830199473003,
+      "width": 34.45384383847243,
       "height": 25.200000000000003
     },
     "_anchorPoint": {
@@ -7741,14 +7819,17 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 20,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
@@ -8253,8 +8334,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 198.92568494206114,
-      "height": 50.4
+      "width": 215.55621749599953,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8286,14 +8367,17 @@
     "_string": "当前植物详细信息todo",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
-    "_font": null,
-    "_isSystemFontUsed": true,
+    "_font": {
+      "__uuid__": "ce799c61-766d-4995-a156-520a70080d63",
+      "__expectedType__": "cc.TTFFont"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_isItalic": false,
     "_isBold": false,
