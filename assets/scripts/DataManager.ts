@@ -19,15 +19,8 @@ export class DataManager extends Component {
             let gamedata: GameData = new GameData();
             gamedata.hpValue = 0;
             gamedata.baseSpeed = 10;
-            //todo实例化盆栽数组数据
-            gamedata.plants = [
-                new Plant("绿萝", 1, true),
-                new Plant("多肉", 1, true),
-                new Plant("薄荷", 1, true),
-                new Plant("薰衣草", 1, true),
-                new Plant("向日葵", 1, true),
-                new Plant("魔法花", 1, true)
-            ];
+            //实例化盆栽数组数据
+            gamedata.plants = this.loadPlants();
             this.gameData = gamedata;
             // console.log("打印游戏数据");
             // console.log(this.gameData);
@@ -41,6 +34,21 @@ export class DataManager extends Component {
     update(deltaTime: number) {
 
     }
+    //获取盆栽数组数据 todo此处要改为获取存储的数据
+    private loadPlants(): Array<Plant> {
+        let plants = [
+            new Plant("绿萝", 1, true),
+            new Plant("多肉", 1, true),
+            new Plant("薄荷", 1, true),
+            new Plant("薰衣草", 1, true),
+            new Plant("向日葵", 1, true),
+            new Plant("魔法花", 1, true)
+        ];
+        return plants;
+    }
+    //todo 存入数据（plants）/gameData
+    ///.....
+
     //初始化盆栽收益、等级、价格数值
     private initPlantLevel() {
         let t1 = new PlantLevel();
