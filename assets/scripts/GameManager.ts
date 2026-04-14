@@ -1,5 +1,5 @@
 import { _decorator, Component, Game, Label, Node } from 'cc';
-import { DataManager } from './DataManager';
+import { DataManager, PlantLevel } from './DataManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameManager')
@@ -27,9 +27,17 @@ export class GameManager extends Component {
             //时间到了刷新一次UI
 
             let gameData = DataManager.inst.gameData;
+            let gameLevelDef = DataManager.inst.gamePlatLevelDef;
             let speed = gameData.baseSpeed;
+            //收益速度根据 植物等级查询数值策划表来获得
+
             gameData.plants.forEach((o, index, arr) => {
-                speed += o.speed;
+                //speed += o.speed;
+                let plantLevel: PlantLevel | undefined = gameLevelDef.find(t => t.name == o.name);
+                if (plantLevel != undefined) {
+                    //当前植物收益=当前等级x基础每级收益
+                    speed += o.level * plantLevel.baseHpPerSec;
+                }
             });
             //每秒收益结算
             gameData.hpValue += speed;
