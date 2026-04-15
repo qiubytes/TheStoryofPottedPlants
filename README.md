@@ -98,3 +98,23 @@
 ## 关于原生windows平台打包后字体生效的问题
 - 需要使用字体工具修改font family ，font family 需要和字体文件的文件名一致   （推荐使用zfont进行修改生效）
 - 修改后在windows文件管理器右键能预览，无法预览的话大概率不会生效
+## 原生windows 平台中文标题
+- Game.cpp 必须转为utf-8 bom格式
+```
+int Game::init()
+{
+  _windowInfo.title = "盆栽物语 V0.1测试版"; // GAME_NAME;
+  // configurate window size
+  _windowInfo.height = 800; // 500
+  _windowInfo.width = 600;  // 378;
+```
+
+- CmakeLists.txt 所有option后面加这
+```
+if(MSVC)
+    add_compile_options(/utf-8)
+	get_property(COMPILE_OPTS DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}" PROPERTY COMPILE_OPTIONS)
+	message(STATUS "Current C++ compile options: ${COMPILE_OPTS}")
+endif()
+
+```
