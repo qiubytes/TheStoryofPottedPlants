@@ -93,3 +93,8 @@
 - 打开 x64 Native Tool Command  通过命令行打开  cocos  creator 进行构建
 - 打开proj目录，执行 nmake
 - 如果乱码 ，执行 chcp 65001
+- namke 默认编译的是Debug版本，也可以使用 cmake --build . --config Release --parallel 来并行编译release版本
+- 缺少VCRUNTIME140_1.DLL：找到D:\Program Files\Microsoft Visual Studio\18\Professional\VC\Redist\MSVC\14.50.35710\x64\Microsoft.VC145.CRT 拷贝里面的dll
+## 关于原生windows平台打包后字体生效的问题
+- 需要使用字体工具修改font family ，font family 需要和字体文件的文件名一致   （推荐使用zfont进行修改生效）
+- 修改后在windows文件管理器右键能预览，无法预览的话大概率不会生效
