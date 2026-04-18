@@ -22,7 +22,7 @@ export class BottomPanel extends Component {
             let plant: Plant = DataManager.inst.gameData.plants.find(o => o.name == plantName);
             plant.level = plant.level + 1;
             DataManager.inst.gameData.hpValue -= nextLevelNeed;
-            DataManager.inst.gameData.hpValue = parseInt(DataManager.inst.gameData.hpValue.toFixed(0)); 
+            DataManager.inst.gameData.hpValue = parseInt(DataManager.inst.gameData.hpValue.toFixed(0));
             //刷新底部显示的升级信息
             this.displayUpgradeInfo(plantName);
         }
@@ -55,6 +55,11 @@ export class BottomPanel extends Component {
         this.node.getChildByName("levelValueLabel").active = enable;
         this.node.getChildByName("nextLevelLabel").active = enable;
         this.node.getChildByName("nextLevelValueLabel").active = enable;
+
+        //最大等级10级
+        if (parseInt(this.node.getChildByName("levelValueLabel").getComponent(Label).string) >= 10) {
+            this.node.getChildByName("upgradeButton").active = false; 
+        }
     }
 }
 
