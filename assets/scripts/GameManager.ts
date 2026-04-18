@@ -1,4 +1,4 @@
-import { _decorator, Component, Game, Label, Node } from 'cc';
+import { _decorator, Component, game, Game, Label, Node } from 'cc';
 import { DataManager, Plant, PlantLevel } from './DataManager';
 const { ccclass, property } = _decorator;
 
@@ -44,6 +44,7 @@ export class GameManager extends Component {
             });
             //每秒收益结算
             gameData.hpValue += speed;
+            gameData.hpValue = parseInt(gameData.hpValue.toFixed(0));
             //显示UI
             //HP
             if (gameData.hpValue < 10000) {

@@ -58,9 +58,9 @@ export class DataManager extends Component {
     //传入植物名称获取下一等级所需能量
     public calcNextLevelNeed(name: string): number {
         let plant: Plant = this.gameData.plants.find(t => t.name == name);
-        let plantlevel: PlantLevel = this.gamePlatLevelDef.find(t => t.name == name); 
+        let plantlevel: PlantLevel = this.gamePlatLevelDef.find(t => t.name == name);
         let need: number = plantlevel.basePrice * Math.pow(1.25, plant.level - 1);
-        return need;
+        return parseInt(need.toFixed(0));
     }
     //初始化盆栽收益、等级、价格数值
     private initPlantLevel() {
