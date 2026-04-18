@@ -15,7 +15,7 @@ export class DataManager extends Component {
         if (!DataManager.inst) {
             DataManager.inst = this;
         }
-        sys.localStorage.setItem('gamedata', null); //清空测试数据
+        //sys.localStorage.setItem('gamedata', null); //清空测试数据
         this.gameData = JSON.parse(sys.localStorage.getItem('gamedata'));
         if (!this.gameData) {
             let gamedata: GameData = new GameData();
