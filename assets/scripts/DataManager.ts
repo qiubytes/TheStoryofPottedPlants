@@ -15,14 +15,14 @@ export class DataManager extends Component {
         if (!DataManager.inst) {
             DataManager.inst = this;
         }
-        //sys.localStorage.setItem('gamedata', null); //清空测试数据
+        sys.localStorage.setItem('gamedata', null); //清空测试数据
         this.gameData = JSON.parse(sys.localStorage.getItem('gamedata'));
         if (!this.gameData) {
             let gamedata: GameData = new GameData();
             gamedata.hpValue = 0;
             gamedata.baseSpeed = 10;
             //实例化盆栽数组数据
-            gamedata.plants = this.loadPlants();
+            gamedata.plants = this.initPlants();
             this.gameData = gamedata;
             // console.log("打印游戏数据");
             // console.log(this.gameData);
@@ -37,23 +37,30 @@ export class DataManager extends Component {
 
     }
     //获取盆栽数组数据 todo此处要改为获取存储的数据
-    private loadPlants(): Array<Plant> {
+    private initPlants(): Array<Plant> {
         let plants = [
             new Plant("绿萝", 1, true),
             new Plant("多肉", 1, true),
             new Plant("薄荷", 1, true),
             new Plant("薰衣草", 1, true),
             new Plant("向日葵", 1, true),
+            new Plant("满天星", 1, true),
             new Plant("魔法花", 1, true)
         ];
         return plants;
     }
-    //todo 存入数据（plants）/gameData
-    ///.....
+    //存入数据（plants）/gameData
     public saveGameData() {
         let gamedata: GameData = this.gameData;
         sys.localStorage.setItem('gamedata', JSON.stringify(gamedata));
 
+    }
+    //传入植物名称获取下一等级所需能量
+    public calcNextLevelNeed(name: string): number {
+        let plant: Plant = this.gameData.plants.find(t => t.name == name);
+        let plantlevel: PlantLevel = this.gamePlatLevelDef.find(t => t.name == name); 
+        let need: number = plantlevel.basePrice * Math.pow(1.25, plant.level - 1);
+        return need;
     }
     //初始化盆栽收益、等级、价格数值
     private initPlantLevel() {
@@ -82,11 +89,18 @@ export class DataManager extends Component {
         t5.baseHpPerSec = 80;
         t5.basePrice = 1200;
         t5.priceGrowthFactor = 1.25;
+
         let t6 = new PlantLevel();
-        t6.name = "魔法花";
-        t6.baseHpPerSec = 300;
-        t6.basePrice = 3000;
+        t6.name = "满天星";
+        t6.baseHpPerSec = 120;
+        t6.basePrice = 2000;
         t6.priceGrowthFactor = 1.25;
+
+        let t7 = new PlantLevel();
+        t7.name = "魔法花";
+        t7.baseHpPerSec = 300;
+        t7.basePrice = 3000;
+        t7.priceGrowthFactor = 1.25;
 
         this.gamePlatLevelDef.push(t1);
         this.gamePlatLevelDef.push(t2);
@@ -94,6 +108,7 @@ export class DataManager extends Component {
         this.gamePlatLevelDef.push(t4);
         this.gamePlatLevelDef.push(t5);
         this.gamePlatLevelDef.push(t6);
+        this.gamePlatLevelDef.push(t7);
     }
 }
 
