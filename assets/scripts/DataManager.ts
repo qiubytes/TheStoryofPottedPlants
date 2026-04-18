@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, setPropertyEnumType } from 'cc';
+import { _decorator, Component, Game, Node, setPropertyEnumType, sys } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('DataManager')
@@ -15,6 +15,8 @@ export class DataManager extends Component {
         if (!DataManager.inst) {
             DataManager.inst = this;
         }
+        //sys.localStorage.setItem('gamedata', null); //清空测试数据
+        this.gameData = JSON.parse(sys.localStorage.getItem('gamedata'));
         if (!this.gameData) {
             let gamedata: GameData = new GameData();
             gamedata.hpValue = 0;
@@ -25,7 +27,7 @@ export class DataManager extends Component {
             // console.log("打印游戏数据");
             // console.log(this.gameData);
         }
-        //初始化数值
+        //初始化数值 todo这里后续加载json配置文件里面 resource读取
         if (this.gamePlatLevelDef.length <= 0) {
             this.initPlantLevel();
         }
@@ -48,7 +50,11 @@ export class DataManager extends Component {
     }
     //todo 存入数据（plants）/gameData
     ///.....
+    public saveGameData() {
+        let gamedata: GameData = this.gameData;
+        sys.localStorage.setItem('gamedata', JSON.stringify(gamedata));
 
+    }
     //初始化盆栽收益、等级、价格数值
     private initPlantLevel() {
         let t1 = new PlantLevel();

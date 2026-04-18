@@ -30,7 +30,7 @@ export class GameManager extends Component {
             //时间到了刷新一次UI
 
             let gameData = DataManager.inst.gameData;
-            let gameLevelDef = DataManager.inst.gamePlatLevelDef; 
+            let gameLevelDef = DataManager.inst.gamePlatLevelDef;
             let speed = gameData.baseSpeed;
             //收益速度根据 植物等级查询数值策划表来获得
 
@@ -59,6 +59,9 @@ export class GameManager extends Component {
             this.updatePlantScrollView();
             //重置计时器
             this.dataTimer = 0;
+
+            //存入数据gameData
+            DataManager.inst.saveGameData();
         }
     }
     //根据数据更新 scrollView里面的植物的Icon等级、收益速度
