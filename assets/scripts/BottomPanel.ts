@@ -22,16 +22,39 @@ export class BottomPanel extends Component {
             let plant: Plant = DataManager.inst.gameData.plants.find(o => o.name == plantName);
             plant.level = plant.level + 1;
             DataManager.inst.gameData.hpValue -= nextLevelNeed;
-            DataManager.inst.gameData.hpValue = parseInt(DataManager.inst.gameData.hpValue.toFixed(0));
-
-            //更新bottompanel的数据显示
-            let plantNameValueLabel: Label = this.node.getChildByPath("plantNameValueLabel").getComponent(Label);
-            let levelValueLabel: Label = this.node.getChildByPath("levelValueLabel").getComponent(Label);
-            let nextLevelValueLabel: Label = this.node.getChildByPath("nextLevelValueLabel").getComponent(Label);
-            plantNameValueLabel.string = plantName;
-            levelValueLabel.string = DataManager.inst.gameData.plants.find(o => o.name == plantName).level.toString();
-            nextLevelValueLabel.string = DataManager.inst.calcNextLevelNeed(plantName).toString();
+            DataManager.inst.gameData.hpValue = parseInt(DataManager.inst.gameData.hpValue.toFixed(0)); 
+            //刷新底部显示的升级信息
+            this.displayUpgradeInfo(plantName);
         }
+    }
+    //底部显示升级信息
+    public displayUpgradeInfo(plantName: string) {
+        let plantNameValueLabel: Label = this.node.getChildByPath("plantNameValueLabel").getComponent(Label);
+        let levelValueLabel: Label = this.node.getChildByPath("levelValueLabel").getComponent(Label);
+        let nextLevelValueLabel: Label = this.node.getChildByPath("nextLevelValueLabel").getComponent(Label);
+        plantNameValueLabel.string = plantName;
+        levelValueLabel.string = DataManager.inst.gameData.plants.find(o => o.name == plantName).level.toString();
+        nextLevelValueLabel.string = DataManager.inst.calcNextLevelNeed(plantName).toString();
+        //只显示关于升级信息的node
+        this.enableUpgradeInfo(true);
+    }
+    //底部显示升级信息面板(切换)
+    private enableUpgradeInfo(enable: boolean) {
+
+        //先全部隐藏
+        let children: Node[] = this.node.children;
+        children.forEach(o => {
+            o.active = false;
+        });
+        //只显示升级部分
+        this.node.getChildByName("Bg").active = enable;
+        this.node.getChildByName("upgradeButton").active = enable;
+        this.node.getChildByName("plantNameLabel").active = enable;
+        this.node.getChildByName("plantNameValueLabel").active = enable;
+        this.node.getChildByName("levelLabel").active = enable;
+        this.node.getChildByName("levelValueLabel").active = enable;
+        this.node.getChildByName("nextLevelLabel").active = enable;
+        this.node.getChildByName("nextLevelValueLabel").active = enable;
     }
 }
 
