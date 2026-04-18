@@ -37,7 +37,7 @@ export class GameManager extends Component {
             gameData.plants.forEach((o, index, arr) => {
                 //speed += o.speed;
                 let plantLevel: PlantLevel | undefined = gameLevelDef.find(t => t.name == o.name);
-                if (plantLevel != undefined) {
+                if (plantLevel != undefined && o.isUnLocked == true) {
                     //当前植物收益=当前等级x基础每级收益
                     speed += o.level * plantLevel.baseHpPerSec;
                 }

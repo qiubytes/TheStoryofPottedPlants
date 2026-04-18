@@ -58,8 +58,35 @@ export class BottomPanel extends Component {
 
         //最大等级10级
         if (parseInt(this.node.getChildByName("levelValueLabel").getComponent(Label).string) >= 10) {
-            this.node.getChildByName("upgradeButton").active = false; 
+            this.node.getChildByName("upgradeButton").active = false;
         }
+    }
+    //底部显示解锁信息
+    public displayUnlockInfo(plantName: string) {
+        let unlockSeedNameLabel: Label = this.node.getChildByPath("unlockSeedNameLabel").getComponent(Label);
+        let unlockSeedCountLabel: Label = this.node.getChildByPath("unlockSeedCountLabel").getComponent(Label);
+        let plant: Plant = DataManager.inst.gameData.plants.find(o => o.name == plantName);
+        unlockSeedNameLabel.string = plant.unLockNeedSeedName;
+        unlockSeedCountLabel.string = "1";
+        //只显示关于升级信息的node
+        this.enableUnUnlockInfo(true);
+    }
+    //底部显示解锁信息面板(切换)
+    private enableUnUnlockInfo(enable: boolean) {
+
+        //先全部隐藏
+        let children: Node[] = this.node.children;
+        children.forEach(o => {
+            o.active = false;
+        });
+        //只显示解锁部分
+        this.node.getChildByName("Bg").active = enable;
+        this.node.getChildByName("unlockLabel").active = enable;
+        this.node.getChildByName("unlockSeedNameLabel").active = enable;
+        this.node.getChildByName("unlockSeedCountLabel").active = enable;
+        this.node.getChildByName("unlockSeedUnitLabel").active = enable;
+        this.node.getChildByName("unlockButton").active = enable;
+
     }
 }
 

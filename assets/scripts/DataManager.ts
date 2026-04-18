@@ -15,7 +15,7 @@ export class DataManager extends Component {
         if (!DataManager.inst) {
             DataManager.inst = this;
         }
-        //sys.localStorage.setItem('gamedata', null); //清空测试数据
+        sys.localStorage.setItem('gamedata', null); //清空测试数据
         this.gameData = JSON.parse(sys.localStorage.getItem('gamedata'));
         if (!this.gameData) {
             let gamedata: GameData = new GameData();
@@ -39,13 +39,13 @@ export class DataManager extends Component {
     //获取盆栽数组数据 todo此处要改为获取存储的数据
     private initPlants(): Array<Plant> {
         let plants = [
-            new Plant("绿萝", 1, true),
-            new Plant("多肉", 1, true),
-            new Plant("薄荷", 1, true),
-            new Plant("薰衣草", 1, true),
-            new Plant("向日葵", 1, true),
-            new Plant("满天星", 1, true),
-            new Plant("魔法花", 1, true)
+            new Plant("绿萝", 1, true, ""),
+            new Plant("多肉", 1, false, "绿萝"),
+            new Plant("薄荷", 1, false, "薄荷"),
+            new Plant("薰衣草", 1, false, "薰衣草"),
+            new Plant("向日葵", 1, false, "向日葵"),
+            new Plant("满天星", 1, false, "满天星"),
+            new Plant("魔法花", 1, false, "魔法花")
         ];
         return plants;
     }
@@ -125,14 +125,17 @@ export class Plant {
     public level: number;
     // public speed: number; //产生能量的速度 速度查询 数值策划数据获得根据等级来
     public isUnLocked: boolean;//是否解锁
-    //public unLockPlantName: string;//解锁所需盆栽植物
+    public seedCount: number;//拥有种子数
+    public unLockNeedSeedName: string;//解锁所需种子名称 默认都只需要一个种子
     //public unLockPlantNum: number;//解锁所需盆栽植物数量
 
-    public constructor(name: string, level: number, isUnLocked: boolean) {
+    public constructor(name: string, level: number, isUnLocked: boolean, unLockNeedSeedName: string) {
         this.name = name;
         this.level = level;
         //this.speed = speed;
         this.isUnLocked = isUnLocked;
+        this.seedCount = 0;
+        this.unLockNeedSeedName = unLockNeedSeedName;
         // this.unLockPlantName = unLockPlantName;
         // this.unLockPlantNum = unLockPlantNum;
     }

@@ -29,9 +29,15 @@ export class PlantIcon extends Component {
     public onICONClick(event: Event, customEventData: string) {
         //console.log(`收到自定义参数: ${customEventData}`);
         let gameData: GameData = DataManager.inst.gameData;
+        let plant = gameData.plants.find(o => o.name == customEventData);
         //更新bottompanel的数据显示 
         let bottompanelscript = this.bottomPanel.getComponent(BottomPanel);
-        bottompanelscript.displayUpgradeInfo(customEventData);
+        if (plant.isUnLocked) {
+            bottompanelscript.displayUpgradeInfo(customEventData);
+
+        } else {
+            bottompanelscript.displayUnlockInfo(customEventData);
+        }
     }
 
 }
