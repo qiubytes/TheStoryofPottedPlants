@@ -127,3 +127,4 @@ endif()
 ```
 - 方案二 VS 2019 项目右键-清单工具-输入和输出： DPI识别功能：选择每个监视器高DPI识别 参考：https://github.com/cocos/cocos-engine/pull/19133
 
+- 方案三 使用Electron打包，参考：https://github.com/qiubytes/TheStoryofPottedPlants-electron
