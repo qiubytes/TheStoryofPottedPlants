@@ -18,10 +18,23 @@ export class GameManager extends Component {
 
     //数据刷新计时器
     private dataTimer: number = 0;
-    start() {
+    async start() {
         if (!GameManager.inst) {
             GameManager.inst = this;
         }
+        // 检查 api 是否存在（确保运行在 Electron 环境中）
+        if (typeof window !== 'undefined' && (window as Window).api) {
+            (window as Window).api.sendMessage("Hello Electron from cocos");
+            //测试代码
+            await window.api.storageSet("testkey", "testvalue");
+            await window.api.storageSet("testkey2", "testvalue2");
+            let v1 = await window.api.storageGet("testkey");
+            console.log(v1);
+
+        } else {
+            console.log('当前不在 Electron 环境中');
+        }
+
     }
 
     update(deltaTime: number) {
