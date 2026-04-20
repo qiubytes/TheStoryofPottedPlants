@@ -11,12 +11,15 @@ export class DataManager extends Component {
 
     //盆栽游戏数值规划
     public gamePlatLevelDef: Array<PlantLevel> = [];
-    start() {
+    async start() {
         if (!DataManager.inst) {
             DataManager.inst = this;
         }
-        sys.localStorage.setItem('gamedata', null); //清空测试数据
-        this.gameData = JSON.parse(sys.localStorage.getItem('gamedata'));
+        //sys.localStorage.setItem('gamedata', null); //清空测试数据
+        //await Storage.setItem('gamedata', null); //清空测试数据
+        // this.gameData = JSON.parse(sys.localStorage.getItem('gamedata'));
+        this.gameData = JSON.parse(await Storage.getItem('gamedata'));
+
         if (!this.gameData) {
             let gamedata: GameData = new GameData();
             gamedata.hpValue = 0;
@@ -50,10 +53,10 @@ export class DataManager extends Component {
         return plants;
     }
     //存入数据（plants）/gameData
-    public saveGameData() {
+    public async saveGameData() {
         let gamedata: GameData = this.gameData;
-        sys.localStorage.setItem('gamedata', JSON.stringify(gamedata));
-
+        //sys.localStorage.setItem('gamedata', JSON.stringify(gamedata));
+        await Storage.setItem('gamedata', JSON.stringify(gamedata));
     }
     //传入植物名称获取下一等级所需能量
     public calcNextLevelNeed(name: string): number {
@@ -112,7 +115,28 @@ export class DataManager extends Component {
     }
 }
 
-
+//封装存储对象
+export class Storage {
+    //获取
+    public static async getItem(key: string): Promise<string> {
+        if (typeof window !== 'undefined' && window.api) {
+            //electron环境
+            return await window.api.storageGet(key)
+        } else {
+            return sys.localStorage.getItem(key)
+        }
+    }
+    //存入
+    public static async setItem(key: string, value: string): Promise<boolean> {
+        if (typeof window !== 'undefined' && window.api) {
+            //electron环境
+            return await window.api.storageSet(key, value)
+        } else {
+            sys.localStorage.setItem(key, value);
+            return true;
+        }
+    }
+}
 //数据定义 游戏数据
 export class GameData {
     public hpValue: number;
