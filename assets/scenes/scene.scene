@@ -686,8 +686,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 99.99996388452293,
-      "height": 50.4
+      "width": 99.97041703209626,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -719,7 +719,7 @@
     "_string": "生命能量：",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -773,7 +773,7 @@
     "__prefab": null,
     "_alignFlags": 8,
     "_target": null,
-    "_left": 0.00001805773853646997,
+    "_left": 0.01479148395186769,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
@@ -854,8 +854,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 71.09999797753328,
-      "height": 50.4
+      "width": 71.07894048498277,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -887,7 +887,7 @@
     "_string": "12345",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -1074,8 +1074,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 27.460932684603055,
-      "height": 50.4
+      "width": 27.452813904018956,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1107,7 +1107,7 @@
     "_string": "⚡️",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -1162,7 +1162,7 @@
     "_alignFlags": 32,
     "_target": null,
     "_left": 0,
-    "_right": 199.30176022019845,
+    "_right": 199.3058196104905,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -1242,8 +1242,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 68.73998397435896,
-      "height": 50.4
+      "width": 68.71964770664083,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1275,7 +1275,7 @@
     "_string": "+123/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -1330,7 +1330,7 @@
     "_alignFlags": 32,
     "_target": null,
     "_left": 269.697265625,
-    "_right": 125.92934714061013,
+    "_right": 125.94968340832827,
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
@@ -1498,7 +1498,7 @@
     "_string": "📋",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.35,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -2381,7 +2381,7 @@
     "_string": "点击照料",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 31.6875,
+    "_actualFontSize": 31.734374999999996,
     "_fontSize": 25,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -3593,7 +3593,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.988143529647434,
+      "width": 25.99704579025111,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -3626,14 +3626,14 @@
     "_string": "绿萝",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -3728,7 +3728,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.663296851886095,
+      "width": 25.880048217472922,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -3761,14 +3761,14 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -3863,7 +3863,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.45756479598126,
+      "width": 29.857581029203597,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -3896,14 +3896,14 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -4426,7 +4426,7 @@
     "_string": "升级",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.3125,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -4679,8 +4679,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 69.98384452160494,
-      "height": 50.4
+      "width": 64.8428484467319,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4712,14 +4712,14 @@
     "_string": "植物名称：",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "2da25dc8-eb23-42ed-a71b-3b389df30846",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -4814,8 +4814,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.993079668209877,
-      "height": 50.4
+      "width": 29.999004685192027,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4847,14 +4847,14 @@
     "_string": "绿萝",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "2da25dc8-eb23-42ed-a71b-3b389df30846",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -4949,8 +4949,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 69.98384452160494,
-      "height": 50.4
+      "width": 64.8428484467319,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4982,14 +4982,14 @@
     "_string": "当前等级：",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "2da25dc8-eb23-42ed-a71b-3b389df30846",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -5084,8 +5084,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 32.659119405864196,
-      "height": 50.4
+      "width": 29.23403072685869,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5117,14 +5117,14 @@
     "_string": "10级",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "2da25dc8-eb23-42ed-a71b-3b389df30846",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -5219,8 +5219,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 99.97692418981481,
-      "height": 50.4
+      "width": 94.84185313192394,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5252,14 +5252,14 @@
     "_string": "升级所需能量：",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "2da25dc8-eb23-42ed-a71b-3b389df30846",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -5354,8 +5354,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 28.326774691358025,
-      "height": 50.4
+      "width": 26.489125584687347,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5387,14 +5387,14 @@
     "_string": "200",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "2da25dc8-eb23-42ed-a71b-3b389df30846",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -5489,8 +5489,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 145.24148823302468,
-      "height": 50.4
+      "width": 145.27017507924054,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5522,7 +5522,7 @@
     "_string": "未解锁，解锁所需种子：",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -5624,8 +5624,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.993079668209877,
-      "height": 50.4
+      "width": 29.999004685192027,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5657,7 +5657,7 @@
     "_string": "绿萝",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -5759,8 +5759,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 7.079294463734568,
-      "height": 50.4
+      "width": 7.077902376446333,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5792,7 +5792,7 @@
     "_string": "1",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.3125,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -5894,8 +5894,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 14.996539834104938,
-      "height": 50.4
+      "width": 14.999502342596013,
+      "height": 50.400000000000006
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5927,7 +5927,7 @@
     "_string": "个",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18.984375,
+    "_actualFontSize": 19.040625,
     "_fontSize": 15,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -6120,7 +6120,7 @@
     "_string": "立即解锁",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 25.3125,
+    "_actualFontSize": 25.3875,
     "_fontSize": 20,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -6711,7 +6711,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.988143529647434,
+      "width": 25.99704579025111,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -6744,14 +6744,14 @@
     "_string": "多肉",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -6846,7 +6846,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.663296851886095,
+      "width": 25.880048217472922,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -6879,14 +6879,14 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -6981,7 +6981,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.45756479598126,
+      "width": 29.857581029203597,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -7014,14 +7014,14 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -7505,7 +7505,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.988143529647434,
+      "width": 25.99704579025111,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -7538,14 +7538,14 @@
     "_string": "薄荷",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -7640,7 +7640,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.663296851886095,
+      "width": 25.880048217472922,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -7673,14 +7673,14 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -7775,7 +7775,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.45756479598126,
+      "width": 29.857581029203597,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -7808,14 +7808,14 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -8299,7 +8299,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 38.98221529447115,
+      "width": 38.99556868537666,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -8332,14 +8332,14 @@
     "_string": "薰衣草",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -8434,7 +8434,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.663296851886095,
+      "width": 25.880048217472922,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -8467,14 +8467,14 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -8569,7 +8569,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.45756479598126,
+      "width": 29.857581029203597,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -8602,14 +8602,14 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -9093,7 +9093,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 38.98221529447115,
+      "width": 38.99556868537666,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -9126,14 +9126,14 @@
     "_string": "向日葵",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -9228,7 +9228,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.663296851886095,
+      "width": 25.880048217472922,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -9261,14 +9261,14 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -9363,7 +9363,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.45756479598126,
+      "width": 29.857581029203597,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -9396,14 +9396,14 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -9887,7 +9887,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 38.98221529447115,
+      "width": 38.99556868537666,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -9920,14 +9920,14 @@
     "_string": "满天星",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -10022,7 +10022,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 25.663296851886095,
+      "width": 25.880048217472922,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -10055,14 +10055,14 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -10157,7 +10157,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.45756479598126,
+      "width": 29.857581029203597,
       "height": 16.38
     },
     "_anchorPoint": {
@@ -10190,14 +10190,14 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 16.4775,
+    "_actualFontSize": 16.501875,
     "_fontSize": 13,
     "_fontFamily": "Arial",
     "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -10681,8 +10681,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 44.99406983866494,
-      "height": 25.200000000000003
+      "width": 38.99556868537666,
+      "height": 16.38
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10714,14 +10714,14 @@
     "_string": "魔法花",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
-    "_fontSize": 15,
+    "_actualFontSize": 16.501875,
+    "_fontSize": 13,
     "_fontFamily": "Arial",
-    "_lineHeight": 20,
+    "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -10816,8 +10816,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 29.62108363766642,
-      "height": 25.200000000000003
+      "width": 25.880048217472922,
+      "height": 16.38
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10849,14 +10849,14 @@
     "_string": "lv.3",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
-    "_fontSize": 15,
+    "_actualFontSize": 16.501875,
+    "_fontSize": 13,
     "_fontFamily": "Arial",
-    "_lineHeight": 20,
+    "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
@@ -10951,8 +10951,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 34.00050657975838,
-      "height": 25.200000000000003
+      "width": 29.857581029203597,
+      "height": 16.38
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10984,14 +10984,14 @@
     "_string": "30/s",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 19.012500000000003,
-    "_fontSize": 15,
+    "_actualFontSize": 16.501875,
+    "_fontSize": 13,
     "_fontFamily": "Arial",
-    "_lineHeight": 20,
+    "_lineHeight": 13,
     "_overflow": 0,
     "_enableWrapText": true,
     "_font": {
-      "__uuid__": "d84afae5-b1bf-4c5d-910b-52e9d36c5dcc",
+      "__uuid__": "c0410bc7-0e52-464f-93f7-893f41ac53ea",
       "__expectedType__": "cc.TTFFont"
     },
     "_isSystemFontUsed": false,
