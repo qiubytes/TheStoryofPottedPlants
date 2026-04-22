@@ -1,10 +1,15 @@
 import { _decorator, Component, Label, Node } from 'cc';
 import { DataManager, Plant } from './DataManager';
 import { GameManager } from './GameManager';
+import { PlantNode } from './PlantNode';
 const { ccclass, property } = _decorator;
 
 @ccclass('BottomPanel')
 export class BottomPanel extends Component {
+    //中间盆栽显示节点
+    @property(Node)
+    plantNode: Node;
+
     start() {
 
     }
@@ -25,6 +30,8 @@ export class BottomPanel extends Component {
             DataManager.inst.gameData.hpValue = parseInt(DataManager.inst.gameData.hpValue.toFixed(0));
             //刷新底部显示的升级信息
             this.displayUpgradeInfo(plantName);
+            //更新中间盆栽显示节点显示 
+            this.plantNode.getComponent(PlantNode).switchPlantSprite(plant);
         }
     }
     //底部显示升级信息

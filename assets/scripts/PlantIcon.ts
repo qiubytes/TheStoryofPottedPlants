@@ -1,7 +1,8 @@
-import { _decorator, Component, Label, Node } from 'cc';
+import { _decorator, Component, Label, Node, Sprite, SpriteFrame } from 'cc';
 import { GameManager } from './GameManager';
-import { DataManager, GameData } from './DataManager';
+import { DataManager, GameData, Plant } from './DataManager';
 import { BottomPanel } from './BottomPanel';
+import { PlantNode } from './PlantNode';
 const { ccclass, property } = _decorator;
 
 //给盆栽ICON的脚本 现共七个都使用这个脚本
@@ -14,6 +15,10 @@ export class PlantIcon extends Component {
     //升级所需Label
     //@property(Label)
     //nextLevelLabel: Label;
+
+    //中间盆栽显示节点
+    @property(Node)
+    plantNode: Node;
 
     //底部Node节点
     @property(Node)
@@ -38,7 +43,10 @@ export class PlantIcon extends Component {
         } else {
             bottompanelscript.displayUnlockInfo(customEventData);
         }
+        //更新中间盆栽显示节点显示
+        this.plantNode.getComponent(PlantNode).switchPlantSprite(plant);
     }
+
 
 }
 
