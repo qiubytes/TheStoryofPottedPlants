@@ -16,7 +16,7 @@ export class DataManager extends Component {
             DataManager.inst = this;
         }
         //sys.localStorage.setItem('gamedata', null); //清空测试数据
-        //await Storage.setItem('gamedata', null); //清空测试数据
+        await Storage.setItem('gamedata', null); //清空测试数据
         // this.gameData = JSON.parse(sys.localStorage.getItem('gamedata'));
         this.gameData = JSON.parse(await Storage.getItem('gamedata'));
 
