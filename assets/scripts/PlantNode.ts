@@ -32,6 +32,67 @@ export class PlantNode extends Component {
                         this.plantSprite.spriteFrame = this.plantFrames[2];
                     }
                 }
+                break;
+            case "多肉":
+                {
+                    if (plant.level <= 3) {
+                        this.plantSprite.spriteFrame = this.plantFrames[3];
+                    } else if (plant.level > 3 && plant.level <= 9) {
+                        this.plantSprite.spriteFrame = this.plantFrames[4];
+
+                    } else if (plant.level >= 10) {
+                        this.plantSprite.spriteFrame = this.plantFrames[5];
+                    }
+                }
+                break;
+            case "薄荷":
+                {
+                    if (plant.level <= 3) {
+                        this.plantSprite.spriteFrame = this.plantFrames[6];
+                    } else if (plant.level > 3 && plant.level <= 9) {
+                        this.plantSprite.spriteFrame = this.plantFrames[7];
+
+                    } else if (plant.level >= 10) {
+                        this.plantSprite.spriteFrame = this.plantFrames[8];
+                    }
+                }
+                break;
+            case "薰衣草":
+                {
+                    if (plant.level <= 3) {
+                        this.plantSprite.spriteFrame = this.plantFrames[9];
+                    } else if (plant.level > 3 && plant.level <= 9) {
+                        this.plantSprite.spriteFrame = this.plantFrames[10];
+
+                    } else if (plant.level >= 10) {
+                        this.plantSprite.spriteFrame = this.plantFrames[11];
+                    }
+                }
+                break;
+            case "向日葵":
+                {
+                    if (plant.level <= 3) {
+                        this.plantSprite.spriteFrame = this.plantFrames[12];
+                    } else if (plant.level > 3 && plant.level <= 9) {
+                        this.plantSprite.spriteFrame = this.plantFrames[13];
+
+                    } else if (plant.level >= 10) {
+                        this.plantSprite.spriteFrame = this.plantFrames[14];
+                    }
+                }
+                break;
+            case "满天星":
+                {
+                    if (plant.level <= 3) {
+                        this.plantSprite.spriteFrame = this.plantFrames[15];
+                    } else if (plant.level > 3 && plant.level <= 9) {
+                        this.plantSprite.spriteFrame = this.plantFrames[16];
+
+                    } else if (plant.level >= 10) {
+                        this.plantSprite.spriteFrame = this.plantFrames[17];
+                    }
+                }
+                break;
         }
     }
 }
