@@ -1,4 +1,4 @@
-import { _decorator, Component, Game, Node, setPropertyEnumType, sys } from 'cc';
+import { _decorator, Component, game, Game, Node, setPropertyEnumType, sys } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('DataManager')
@@ -16,7 +16,7 @@ export class DataManager extends Component {
             DataManager.inst = this;
         }
         //sys.localStorage.setItem('gamedata', null); //清空测试数据
-        await Storage.setItem('gamedata', null); //清空测试数据
+        // await Storage.setItem('gamedata', null); //清空测试数据
         // this.gameData = JSON.parse(sys.localStorage.getItem('gamedata'));
         this.gameData = JSON.parse(await Storage.getItem('gamedata'));
 
@@ -26,6 +26,7 @@ export class DataManager extends Component {
             gamedata.baseSpeed = 10;
             //实例化盆栽数组数据
             gamedata.plants = this.initPlants();
+            gamedata.bag = [];//背包数据
             this.gameData = gamedata;
             // console.log("打印游戏数据");
             // console.log(this.gameData);
@@ -44,11 +45,11 @@ export class DataManager extends Component {
         let plants = [
             new Plant("绿萝", 1, true, ""),
             new Plant("多肉", 1, false, "绿萝"),
-            new Plant("薄荷", 1, false, "薄荷"),
-            new Plant("薰衣草", 1, false, "薰衣草"),
-            new Plant("向日葵", 1, false, "向日葵"),
-            new Plant("满天星", 1, false, "满天星"),
-            new Plant("魔法花", 1, false, "魔法花")
+            new Plant("薄荷", 1, false, "多肉"),
+            new Plant("薰衣草", 1, false, "薄荷"),
+            new Plant("向日葵", 1, false, "薰衣草"),
+            new Plant("满天星", 1, false, "向日葵"),
+            new Plant("魔法花", 1, false, "满天星")
         ];
         return plants;
     }
@@ -141,7 +142,8 @@ export class Storage {
 export class GameData {
     public hpValue: number;
     public baseSpeed: number; //基础收益
-    public plants: Array<Plant> = [];
+    public plants: Array<Plant> = [];//盆栽数据
+    public bag: Array<BagItem> = [];//背包数据
 }
 //数据定义 盆栽实体
 export class Plant {
@@ -170,4 +172,18 @@ export class PlantLevel {
     public baseHpPerSec: number;//基础每秒收益
     public basePrice: number;//初始价格
     public priceGrowthFactor: number;//价格增长因子(1.25)
+}
+
+//背包物品
+export class BagItem {
+    //物品名称
+    public name: string; //xx种子
+    //物品数量
+    public count: number;
+    //todo 后续扩展icon
+
+    public constructor(name: string, count: number) {
+        this.name = name;
+        this.count = count;
+    }
 }
