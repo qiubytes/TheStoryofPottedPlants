@@ -2286,6 +2286,18 @@
       {
         "__uuid__": "bb529e33-9925-4cdc-9bd7-04508b4ea35b@f9941",
         "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "cf05b564-2e97-48f1-afed-48e6aebd15be@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "a6bfc597-20d8-467f-955c-0555dd47e060@f9941",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "d15c068f-68ad-41af-9147-8f701f345577@f9941",
+        "__expectedType__": "cc.SpriteFrame"
       }
     ],
     "_id": "50nIpzpeJLcK6Dy+uViKKD"

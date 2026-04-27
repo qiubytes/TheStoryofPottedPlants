@@ -93,6 +93,18 @@ export class PlantNode extends Component {
                     }
                 }
                 break;
+            case "魔法花":
+                {
+                    if (plant.level <= 3) {
+                        this.plantSprite.spriteFrame = this.plantFrames[18];
+                    } else if (plant.level > 3 && plant.level <= 9) {
+                        this.plantSprite.spriteFrame = this.plantFrames[19];
+
+                    } else if (plant.level >= 10) {
+                        this.plantSprite.spriteFrame = this.plantFrames[20];
+                    }
+                }
+                break;
         }
     }
 }
