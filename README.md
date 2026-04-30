@@ -129,3 +129,6 @@ endif()
 
 - 方案三 使用Electron打包，参考：https://github.com/qiubytes/TheStoryofPottedPlants-electron
 - 方案四 (最终是采取这个方案进行打包) 使用Electron +TypeScript+Vite :https://github.com/qiubytes/TheStoryofPottedPlants-electron-vite-ts
+## 游戏截图 （采用方案四打包）
+![游戏截图1](./screenshot/screenshot1.png)
+![游戏截图2](./screenshot/screenshot2.png)
