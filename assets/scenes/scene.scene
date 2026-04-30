@@ -686,7 +686,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 99.97041703209626,
+      "width": 79.97633362567701,
       "height": 50.400000000000006
     },
     "_anchorPoint": {
@@ -716,7 +716,7 @@
       "b": 0,
       "a": 255
     },
-    "_string": "生命能量：",
+    "_string": "能量值：",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
     "_actualFontSize": 25.3875,
@@ -773,7 +773,7 @@
     "__prefab": null,
     "_alignFlags": 8,
     "_target": null,
-    "_left": 0.01479148395186769,
+    "_left": 10.011833187161493,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
